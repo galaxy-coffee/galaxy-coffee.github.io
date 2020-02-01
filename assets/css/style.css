@@ -87,7 +87,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background: url(../img/intro/slidintro-1.jpg) center no-repeat;
     background-size: cover;
 }
@@ -399,6 +399,14 @@ p {
     .sliderMenu {
         width: 100%;
         padding: 0 87px;
+    }
+
+    .slider__title {
+        font-size: 50px;
+    }
+
+    .slider__subtitle {
+        font-size: 35px;
     }
 }
 
