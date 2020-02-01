@@ -93,7 +93,7 @@ p {
 }
 
 .slider__item {
-    width: 415px;
+    max-width: 415px;
     margin: 0 auto;
 }
 
@@ -381,6 +381,11 @@ p {
 }
 
 @media (max-width: 500px) {
+
+    .slider__title {
+        font-size: 65px;
+    }
+
     .about {
         flex-direction: column;
     }
