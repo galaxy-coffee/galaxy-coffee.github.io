@@ -99,7 +99,7 @@ p {
 
 .slider__title {
     font-family: 'Lobster', cursive;
-    font-size: 90px;
+    font-size: 47px;
     color: #f9f3f3;
     text-align: center;
 }
@@ -109,7 +109,7 @@ p {
     text-align: center;
 
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #f9f3f3;
 }
 
@@ -402,11 +402,11 @@ p {
     }
 
     .slider__title {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .slider__subtitle {
-        font-size: 35px;
+        font-size: 32px;
     }
 }
 
