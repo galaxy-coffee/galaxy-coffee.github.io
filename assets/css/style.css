@@ -222,6 +222,7 @@ p {
 
 .menu {
     margin: 70px 0;
+    padding: 0 10px;
 }
 
 .menu__all {
@@ -390,6 +391,10 @@ p {
     .about__left {
         width: 100%;
     }
+    .sliderMenu {
+        width: 100%;
+        padding: 0 87px;
+    }
 }
 
 @media (max-width: 743px) {
@@ -412,6 +417,7 @@ p {
     .nav {
         display: none;
     }
+
 }
 
 @media (max-width: 376px){
@@ -444,5 +450,10 @@ p {
 
     .contacts__item {
         flex-direction: column;
+    }
+
+    .sliderMenu {
+        width: 100%;
+        padding: 0 65px;
     }
 }

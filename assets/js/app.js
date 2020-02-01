@@ -3,8 +3,8 @@ $(document).ready(function(){
         centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-       /* autoplay: true,*/
-       /* autoplaySpeed: 1000,*/
+        autoplay: true,
+        autoplaySpeed: 1000,
 responsive: [
     {
 breakpoint: 1024,
@@ -21,7 +21,6 @@ breakpoint: 1024,
         centerMode: false,
         slidesToShow: 1,
           adaptiveHeight: true,
-          infinite: true,
       }
     }
         ]
