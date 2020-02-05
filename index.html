@@ -22,10 +22,10 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <title>HomePage</title>
+    <title>Galaxy coffee</title>
 </head>
 <body>
-<header class="header">
+<header class="header active">
     <div class="container">
         <div class="header__item">
             <div class="header__logo">
@@ -33,43 +33,28 @@
             </div>
 
             <div class="header__nav">
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a class="nav__link" href="#">Главная</a>
-                    <a class="nav__link" href="#">О нас</a>
-                    <a class="nav__link" href="#">Меню</a>
-                    <a class="nav__link" href="#">Контакты</a>
+                    <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                    <a class="nav__link" href="#" data-scroll="#menu">Меню</a>
+                    <a class="nav__link" href="#" data-scroll="#contacts">Контакты</a>
                 </nav>
             </div>
             <div class="header__contacts">
                     <p>Время работы:</p>
                     <p>пн-вс: 9:00-20:00</p>
+                    <p>Брест, Пушкинская 6</p>
                 <div class="contacts__icon">
                     <a href="https://www.instagram.com/galaxy.coffee_/" target="_blank"><img src="assets/img/instagram.svg" alt=""></a>
                 </div>
             </div>
+            <button class="header__burger" id="header__burger" type="button">
+                <span class="burger__item">Menu</span>
+            </button>
         </div>
     </div>
 
 </header>
-
-<!--<div class="header">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-2">
-                <img src="assets/img/logo.png" alt="">
-            </div>
-            <div class="col-lg-6">
-                <nav class="nav">
-                    <a class="nav__link" href="#">Главная</a>
-                    <a class="nav__link" href="#">Меню</a>
-                    <a class="nav__link" href="#">Фото</a>
-                    <a class="nav__link" href="#">Контакты</a>
-                </nav>
-            </div>
-            <div class="col-lg-4">3</div>
-        </div>
-    </div>
-</div>-->
 
 <div class="sliderInner">
     <div class="container">
@@ -87,7 +72,7 @@
 
     <!--/.about-->
 
-    <div class="container">
+    <div class="container" id="about">
         <div class="about">
             <div class="about__right">
             </div>
@@ -152,7 +137,7 @@
     </div>
 </div>
 
-<div class="menu">
+<div class="menu" id="menu">
     <div class="container">
        <div class="menu__all">
             <div class="menu__title">
@@ -208,7 +193,7 @@
 
 <!--Contacts-->
 <div class="container">
-    <div class="contacts__title">Контакты</div>
+    <div class="contacts__title" id="contacts">Контакты</div>
     <div class="contacts__item">
         <div class="contacts__left">
             Время работы: <br> понедельник-воскресенье: <br>9.00 до 20.00
@@ -221,11 +206,11 @@
                 ПОДПИСЫВАЙСЯ НА INSTAGRAM
             </div>
         </a>
-        <div class="contacts__right">
+
             <div class="contacts__adress">
                 Приходите в гости <br> Пушкинская, 6 <br> Брест
             </div>
-        </div>
+
     </div>
 </div>
 

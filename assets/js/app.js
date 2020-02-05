@@ -17,7 +17,7 @@ breakpoint: 1024,
     {
       breakpoint: 768,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: false,
         slidesToShow: 1,
           adaptiveHeight: true,
@@ -26,3 +26,39 @@ breakpoint: 1024,
         ]
     });
 });
+
+/*Scroll*/
+
+$("[data-scroll]").on("click", function(event) {
+    event.preventDefault();
+
+    var blockId = $(this).data('scroll'),
+        blockOffset = $(blockId).offset().top;
+
+    $("html, body").animate({
+        scrollTop: blockOffset
+    }, 1000);
+});
+
+
+/*Burger*/
+
+$("#header__burger").on("click", function(event){
+    event.preventDefault();
+
+    $(this).toggleClass("active");
+    $("#nav").toggleClass("active");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
